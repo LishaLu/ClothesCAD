@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B5DF1C94-56DC-4CA9-A491-18791126A79C}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>ClothesCAD</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AngleBisectionConstraintRelation.h" />
+    <ClInclude Include="ArcAndLineConstraintRelation.h" />
+    <ClInclude Include="CArc.h" />
+    <ClInclude Include="CAsymmetricKnittingDlg.h" />
+    <ClInclude Include="CBezier4.h" />
+    <ClInclude Include="CCurve.h" />
+    <ClInclude Include="CEdgeNode.h" />
+    <ClInclude Include="CFigure.h" />
+    <ClInclude Include="CInterKnittingDlg.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="CLine.h" />
+    <ClInclude Include="ClothesCAD.h" />
+    <ClInclude Include="ClothesCADDoc.h" />
+    <ClInclude Include="ClothesCADView.h" />
+    <ClInclude Include="ClothesParameter.h" />
+    <ClInclude Include="constant.h" />
+    <ClInclude Include="ConstraintRelation.h" />
+    <ClInclude Include="COrientGraph.h" />
+    <ClInclude Include="CPartitionKnittingDlg.h" />
+    <ClInclude Include="CPoint1.h" />
+    <ClInclude Include="CReversKnittingDlg.h" />
+    <ClInclude Include="CSettingParaEntityDlg.h" />
+    <ClInclude Include="CStyleSelectDlg.h" />
+    <ClInclude Include="CUnfoldKnittingDlg.h" />
+    <ClInclude Include="CVertex.h" />
+    <ClInclude Include="EnumClass.h" />
+    <ClInclude Include="ExpandConstraintRelation.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GlobalVar.h" />
+    <ClInclude Include="LineAndBezierConstraintRelation.h" />
+    <ClInclude Include="LineAndCurveConstraintRelation.h" />
+    <ClInclude Include="LineAndLineConstraintRelation.h" />
+    <ClInclude Include="LineAndPointConstraintRelation.h" />
+    <ClInclude Include="CLongitudinalKnittingDlg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="ParaConstraintRelation.h" />
+    <ClInclude Include="ParameterConstraintRelation.h" />
+    <ClInclude Include="ParameterCurveConstraintRelation.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PointOnLinePosition.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="RatioConstraintRelation.h" />
+    <ClInclude Include="RayConstraintRelation.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RotateConstraintRelation.h" />
+    <ClInclude Include="SaveKeyPointsDlg.h" />
+    <ClInclude Include="CSideKnittingDlg.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestConstraintRelation.h" />
+    <ClInclude Include="TestImagButtonDlg.h" />
+    <ClInclude Include="CTransverseKnittingDlg.h" />
+    <ClInclude Include="VerConstraintRelation.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AngleBisectionConstraintRelation.cpp" />
+    <ClCompile Include="ArcAndLineConstraintRelation.cpp" />
+    <ClCompile Include="CArc.cpp" />
+    <ClCompile Include="CAsymmetricKnittingDlg.cpp" />
+    <ClCompile Include="CBezier4.cpp" />
+    <ClCompile Include="CCurve.cpp" />
+    <ClCompile Include="CEdgeNode.cpp" />
+    <ClCompile Include="CFigure.cpp" />
+    <ClCompile Include="CInterKnittingDlg.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="CLine.cpp" />
+    <ClCompile Include="ClothesCAD.cpp" />
+    <ClCompile Include="ClothesCADDoc.cpp" />
+    <ClCompile Include="ClothesCADView.cpp" />
+    <ClCompile Include="ClothesParameter.cpp" />
+    <ClCompile Include="ConstraintRelation.cpp" />
+    <ClCompile Include="COrientGraph.cpp" />
+    <ClCompile Include="CPartitionKnittingDlg.cpp" />
+    <ClCompile Include="CPoint1.cpp" />
+    <ClCompile Include="CReversKnittingDlg.cpp" />
+    <ClCompile Include="CSettingParaEntityDlg.cpp" />
+    <ClCompile Include="CStyleSelectDlg.cpp" />
+    <ClCompile Include="CUnfoldKnittingDlg.cpp" />
+    <ClCompile Include="CVertex.cpp" />
+    <ClCompile Include="ExpandConstraintRelation.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="GlobalVar.cpp" />
+    <ClCompile Include="LineAndBezierConstraintRelation.cpp" />
+    <ClCompile Include="LineAndCurveConstraintRelation.cpp" />
+    <ClCompile Include="LineAndLineConstraintRelation.cpp" />
+    <ClCompile Include="LineAndPointConstraintRelation.cpp" />
+    <ClCompile Include="CLongitudinalKnittingDlg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="ParaConstraintRelation.cpp" />
+    <ClCompile Include="ParameterConstraintRelation.cpp" />
+    <ClCompile Include="ParameterCurveConstraintRelation.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PointOnLinePosition.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="RatioConstraintRelation.cpp" />
+    <ClCompile Include="RayConstraintRelation.cpp" />
+    <ClCompile Include="RotateConstraintRelation.cpp" />
+    <ClCompile Include="SaveKeyPointsDlg.cpp" />
+    <ClCompile Include="CSideKnittingDlg.cpp" />
+    <ClCompile Include="TestConstraintRelation.cpp" />
+    <ClCompile Include="TestImagButtonDlg.cpp" />
+    <ClCompile Include="CTransverseKnittingDlg.cpp" />
+    <ClCompile Include="VerConstraintRelation.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClothesCAD.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\lenovo\Desktop\a.bmp" />
+    <Image Include="C:\Users\lenovo\Desktop\aa.bmp" />
+    <Image Include="C:\Users\lenovo\Desktop\bb.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bmp\0101g.bmp" />
+    <Image Include="res\bmp\0101w.bmp" />
+    <Image Include="res\bmp\0102g.bmp" />
+    <Image Include="res\bmp\0102w.bmp" />
+    <Image Include="res\bmp\0103g.bmp" />
+    <Image Include="res\bmp\0103w.bmp" />
+    <Image Include="res\bmp\0104g.bmp" />
+    <Image Include="res\bmp\0104w.bmp" />
+    <Image Include="res\bmp\0105g.bmp" />
+    <Image Include="res\bmp\0105w.bmp" />
+    <Image Include="res\bmp\0201g.bmp" />
+    <Image Include="res\bmp\0201w.bmp" />
+    <Image Include="res\bmp\0202g.bmp" />
+    <Image Include="res\bmp\0202w.bmp" />
+    <Image Include="res\bmp\0203g.bmp" />
+    <Image Include="res\bmp\0203w.bmp" />
+    <Image Include="res\bmp\0204g.bmp" />
+    <Image Include="res\bmp\0204w.bmp" />
+    <Image Include="res\bmp\0301g.bmp" />
+    <Image Include="res\bmp\0301w.bmp" />
+    <Image Include="res\bmp\0302g.bmp" />
+    <Image Include="res\bmp\0302w.bmp" />
+    <Image Include="res\bmp\0303g.bmp" />
+    <Image Include="res\bmp\0303w.bmp" />
+    <Image Include="res\bmp\0304g.bmp" />
+    <Image Include="res\bmp\0304w.bmp" />
+    <Image Include="res\bmp\0305g.bmp" />
+    <Image Include="res\bmp\0305w.bmp" />
+    <Image Include="res\bmp\0401g.bmp" />
+    <Image Include="res\bmp\0401w.bmp" />
+    <Image Include="res\bmp\0402g.bmp" />
+    <Image Include="res\bmp\0402w.bmp" />
+    <Image Include="res\bmp\0403g.bmp" />
+    <Image Include="res\bmp\0403w.bmp" />
+    <Image Include="res\bmp\0404g.bmp" />
+    <Image Include="res\bmp\0404w.bmp" />
+    <Image Include="res\bmp\0405g.bmp" />
+    <Image Include="res\bmp\0405w.bmp" />
+    <Image Include="res\bmp\0406g.bmp" />
+    <Image Include="res\bmp\0406w.bmp" />
+    <Image Include="res\bmp\0407g.bmp" />
+    <Image Include="res\bmp\0407w.bmp" />
+    <Image Include="res\bmp\0408g.bmp" />
+    <Image Include="res\bmp\0408w.bmp" />
+    <Image Include="res\bmp\0501g.bmp" />
+    <Image Include="res\bmp\0501w.bmp" />
+    <Image Include="res\bmp\0502g.bmp" />
+    <Image Include="res\bmp\0502w.bmp" />
+    <Image Include="res\bmp\0503g.bmp" />
+    <Image Include="res\bmp\0503w.bmp" />
+    <Image Include="res\bmp\0504g.bmp" />
+    <Image Include="res\bmp\0504w.bmp" />
+    <Image Include="res\bmp\0601g.bmp" />
+    <Image Include="res\bmp\0601w.bmp" />
+    <Image Include="res\bmp\0602g.bmp" />
+    <Image Include="res\bmp\0602w.bmp" />
+    <Image Include="res\bmp\0603g.bmp" />
+    <Image Include="res\bmp\0603w.bmp" />
+    <Image Include="res\bmp\0604g.bmp" />
+    <Image Include="res\bmp\0604w.bmp" />
+    <Image Include="res\bmp\0701g.bmp" />
+    <Image Include="res\bmp\0701w.bmp" />
+    <Image Include="res\bmp\0702g.bmp" />
+    <Image Include="res\bmp\0702w.bmp" />
+    <Image Include="res\bmp\0703g.bmp" />
+    <Image Include="res\bmp\0703w.bmp" />
+    <Image Include="res\bmp\0704g.bmp" />
+    <Image Include="res\bmp\0704w.bmp" />
+    <Image Include="res\bmp\0705g.bmp" />
+    <Image Include="res\bmp\0705w.bmp" />
+    <Image Include="res\bmp\0706g.bmp" />
+    <Image Include="res\bmp\0706w.bmp" />
+    <Image Include="res\bmp\0707g.bmp" />
+    <Image Include="res\bmp\0707w.bmp" />
+    <Image Include="res\bmp\0708g.bmp" />
+    <Image Include="res\bmp\0708w.bmp" />
+    <Image Include="res\bmp\0801g.bmp" />
+    <Image Include="res\bmp\0801w.bmp" />
+    <Image Include="res\bmp\0802g.bmp" />
+    <Image Include="res\bmp\0802w.bmp" />
+    <Image Include="res\bmp\0803g.bmp" />
+    <Image Include="res\bmp\0803w.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\ClothesCAD.ico" />
+    <Image Include="res\ClothesCADDoc.ico" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\fileview.bmp" />
+    <Image Include="res\fileview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\userimages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ClothesCAD.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

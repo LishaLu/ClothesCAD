@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClothesCAD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothesCADDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothesCADView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFigure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPoint1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParaConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCurve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CEdgeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVertex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COrientGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VerConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RayConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpandConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineAndPointConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineAndLineConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineAndCurveConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterCurveConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBezier4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineAndBezierConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AngleBisectionConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointOnLinePosition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RatioConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcAndLineConstraintRelation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CArc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingParaEntityDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothesParameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveKeyPointsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestImagButtonDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStyleSelectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransverseKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSideKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLongitudinalKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnfoldKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPartitionKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CReversKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAsymmetricKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CInterKnittingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClothesCAD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClothesCADDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClothesCADView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CFigure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPoint1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParaConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCurve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CEdgeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CVertex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COrientGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VerConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RayConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpandConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineAndPointConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineAndLineConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineAndCurveConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterCurveConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBezier4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LineAndBezierConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AngleBisectionConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointOnLinePosition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RatioConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcAndLineConstraintRelation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CArc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingParaEntityDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClothesParameter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveKeyPointsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestImagButtonDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CStyleSelectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransverseKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSideKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLongitudinalKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnfoldKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPartitionKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CReversKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAsymmetricKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CInterKnittingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClothesCAD.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ClothesCADDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ClothesCAD.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\a.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\aa.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\lenovo\Desktop\bb.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0101g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0101w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0102g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0102w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0103g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0103w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0104g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0104w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0105g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0105w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0201g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0201w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0202g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0202w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0203g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0203w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0204g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0204w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0301g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0301w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0302g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0302w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0303g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0303w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0304g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0304w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0305g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0305w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0401g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0401w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0402g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0402w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0403g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0403w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0404g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0404w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0405g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0405w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0406g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0406w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0407g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0407w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0408g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0408w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0501g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0501w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0502g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0502w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0503g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0503w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0504g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0504w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0601g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0601w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0602g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0602w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0603g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0603w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0604g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0604w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0701g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0701w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0702g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0702w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0703g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0703w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0704g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0704w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0705g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0706g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0705w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0706w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0707g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0707w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0708g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0708w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0801g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0801w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0802g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0802w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0803g.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bmp\0803w.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ClothesCAD.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
